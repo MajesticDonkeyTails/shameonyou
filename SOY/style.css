@@ -1,13 +1,16 @@
 /*Header*/
 	header{
-		background: #C3C3C3;
+		background:url("./Logo.png") no-repeat 0 -220px;
+		background-size: cover;
 		color:white;
 		text-shadow:2px 2px black;
-		padding-top:30px;
+		padding-top:0px;
 		min-height:70px;
-		padding-bottom: 50px;
+		padding-bottom: 150px;
 		border-bottom:black 3px solid;
+
 	}
+
 
 	header a{
 		color:#ffffff;
@@ -47,9 +50,6 @@
 		background-color: black;
 	}
 
-	span{
-		background:green;
-	}
 
 
 
@@ -67,3 +67,24 @@
 		color:#cccccc;
 		font-weight:bold;
 	}
+
+	/*showcase*/
+
+	#showcase{
+		min-height:280px;
+		background-size: cover;
+		text-align:center;
+		color:black;
+		text-shadow: 2px 2px white;
+	}
+
+	#showcase li{
+		list-style: none;
+		float:left;
+		width: 20%
+		height:600px;
+		display: inline;
+		padding: 20px 20px 20px 240px;
+	}
+
+
