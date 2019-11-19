@@ -1,0 +1,126 @@
+/*Header*/
+	header{
+		background:url("./Logo.png") no-repeat 0 -260px;
+		background-size: cover;
+		color:white;
+		text-shadow:2px 2px black;
+		padding-top:0px;
+		min-height:70px;
+		padding-bottom: 150px;
+		border-bottom:black 3px solid;
+
+	}
+
+
+	header a{
+		color:#ffffff;
+		text-decoration:none;
+		font-size:16px;
+	}
+
+
+	header li{
+		float:left;
+		width: 20%
+		height:600px;
+		display: inline;
+		padding: 0 20px 0 20px;
+		position: relative;
+	}
+
+	input{
+		position:absolute;
+		top: 40px;
+		right: 55px;
+		bottom: 50;
+		font-size: 16px;
+		border: 1px solid black;
+	}
+
+	header #branding{
+		float:left;
+	}
+
+	header #branding h1{
+		font-size: 50px;
+		margin-left: 20px;
+		border-style: solid;
+		border-width: 3px;
+		border-color: red;
+		background-color: black;
+	}
+
+
+
+
+	header nav{
+		float:right;
+		margin-top:10px;
+	}
+
+	header .current a {
+		color:#5399CF;
+		font-weight:bold;
+	}
+
+	header a:hover{
+		color:#cccccc;
+		font-weight:bold;
+	}
+
+	/*showcase*/
+
+	#showcase{
+		min-height:280px;
+		background-size: cover;
+		text-align:center;
+		color:black;
+		text-shadow: 2px 2px white;
+	}
+
+	#showcase li{
+		list-style: none;
+		float:left;
+		width: 20%
+		height:600px;
+		display: inline;
+		padding: 20px 20px 20px 300px;
+		background:white;
+	}
+
+
+/*gallery*/
+
+		div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 35%;
+
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 500px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*sidebar*/
+
+/*footer*/
+footer{
+	padding:20px;
+	margin-top:10px;
+	color:black;
+	background-color:#C3C3C3;
+	text-align:center;
+}
